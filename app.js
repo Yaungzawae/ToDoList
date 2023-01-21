@@ -28,7 +28,3 @@ app.post("/", (req, res)=>{
 app.listen(3000,()=>{
     console.log("Server is running in port 3000");
 })
-
-function dayOfWeekAsString(dayIndex) {
-    return ["Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][dayIndex] || '';
-  }
